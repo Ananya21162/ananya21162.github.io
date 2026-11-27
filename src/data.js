@@ -50,7 +50,7 @@ export const workProjects = [
     url: "https://www.cornerstoneondemand.com/readiness-agents/",
     org: "Cornerstone OnDemand",
     orgUrl: "https://www.cornerstoneondemand.com/",
-    desc: "An AI coaching partner that helps employees and managers get more out of their 1:1s and tie their work to clear priorities. I was the sole contributor on the Slack app, which laid the foundation for later Slack apps and service integrations, and I worked on the agent's frontend and backend.",
+    desc: "An AI coaching partner that helps employees and managers get more out of their 1:1s and tie their work to clear priorities. I built the Slack app, which laid the foundation for later Slack apps and service integrations, and worked on the agent's frontend and backend.",
     tech: ["Python", "React", "TypeScript", "AWS", "DynamoDB", "Slack API", "LLMs"],
   },
   {
