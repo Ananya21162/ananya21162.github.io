@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { workProjects, timeline, projects } from "./data";
+import { profile, workProjects, timeline, projects } from "./data";
 
 function Bio() {
   return (
@@ -23,6 +23,16 @@ function Bio() {
         estimation. In my own time I build small apps, some of which you can try on the{" "}
         <Link to="/live-apps">Live Apps</Link> page.
       </p>
+      <p>
+        For more details about my background, refer to my{" "}
+        <a href={profile.links.resume} target="_blank" rel="noreferrer">Resume / CV</a>. I'm always happy to talk
+        about building AI agents and the products around them, from LLM integrations and Slack
+        apps to model serving. If you're working on something similar or want to collaborate, reach
+        out via{" "}
+        <a href={`mailto:${profile.links.email}`}>Email</a> or{" "}
+        <a href={profile.links.linkedin} target="_blank" rel="noreferrer">LinkedIn</a>!
+      </p>
+      <p className="updated">Last Updated: November 2026</p>
     </section>
   );
 }

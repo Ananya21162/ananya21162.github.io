@@ -2,7 +2,7 @@ export const profile = {
   name: "Ananya Dabas",
   title: "Senior AI Engineer",
   location: "New York, NY",
-  photo: "/profile.png",
+  photo: "/profile.jpg",
   links: {
     email: "ananya.dabas1526@gmail.com",
     github: "https://github.com/Ananya21162",
